@@ -4,4 +4,6 @@ COPY . /var/www/html/
 
 RUN docker-php-ext-install mysqli
 
+ENV PORT=80
+
 EXPOSE 80
